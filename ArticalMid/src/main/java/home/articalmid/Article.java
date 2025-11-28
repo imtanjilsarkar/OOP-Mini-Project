@@ -43,7 +43,7 @@ public class Article {
     // only year ar jono
     public int getPublicationYear () {
 
-        return this.publicationDate.getYear();
+        return this.publicationDate.getYear(); // some change
     }
 
     public void setPublicationDate(LocalDate publicationDate) {
