@@ -33,5 +33,11 @@ public class DivisionController
 
     @javafx.fxml.FXML
     public void handleDivResult(ActionEvent actionEvent) {
+        int Num1 = Integer.parseInt(num1.getText());
+        int Num2 = Integer.parseInt(num2.getText());
+
+        float Result = (float) Num1 / Num2;
+
+        result.setText(Float.toString(Result));
     }
 }

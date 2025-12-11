@@ -33,5 +33,10 @@ public class MultiplicationController
 
     @javafx.fxml.FXML
     public void handleMulResult(ActionEvent actionEvent) {
+        int Num1 = Integer.parseInt(num1.getText());
+        int Num2 = Integer.parseInt(num2.getText());
+
+        int Result = Num1 * Num2;
+        result.setText(Integer.toString(Result));
     }
 }
