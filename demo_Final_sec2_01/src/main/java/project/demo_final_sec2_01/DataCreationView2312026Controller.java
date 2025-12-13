@@ -78,16 +78,9 @@ public class DataCreationView2312026Controller
                 return;
             }
         }
-        //public Pharmacy(String name, String zipCode, int areaInSqFt, String owner, LocalDate openingDate, Boolean isChainPharmacy, String locationType, String licenceNo)
 
         Pharmacy pharmacy = new Pharmacy(name, zipCode, area, owner, openingDate, isChain, location, tradeLicense);
-        //File file = new File("Chair.bin");
 
-//        try (ObjectOutputStream obs = new ObjectOutputStream(new FileOutputStream(file, true)))
-//        {
-//            obs.writeObject(pharmacy);
-//        } catch ( IOException e) {
-//            System.out.println("There is an error");
         File file = new File("Chair.bin");
         FileOutputStream fos;
         ObjectOutputStream oos;
