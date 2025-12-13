@@ -1,0 +1,9 @@
+package project.demo_final_sec2_01;
+
+import javafx.application.Application;
+
+public class Launcher {
+    public static void main(String[] args) {
+        Application.launch(HelloApplication.class, args);
+    }
+}
