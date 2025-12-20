@@ -1,6 +1,7 @@
 package project.last_demo_question_solve;
 
 import javafx.event.ActionEvent;
+import javafx.scene.control.Alert;
 import javafx.scene.control.ComboBox;
 import javafx.scene.control.TableColumn;
 import javafx.scene.control.TableView;
@@ -82,3 +83,9 @@ public class Goal2Controller
     }
 
 }
+
+//Alert alert = new Alert(Alert.AlertType.ERROR);
+//        alert.setTitle("Error");
+//        if (dateOfIssue.isAfter(dateOfExpire)){
+//        alert.setContentText("Issue date us after expair date");
+//            alert.showAndWait();

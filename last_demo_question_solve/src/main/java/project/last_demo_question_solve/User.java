@@ -1,5 +1,7 @@
 package project.last_demo_question_solve;
 
+import javafx.scene.control.Alert;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 
@@ -56,5 +58,12 @@ public class User implements Serializable {
                 ", gender='" + gender + '\'' +
                 ", dateOfBirth=" + dateOfBirth +
                 '}';
+    }
+
+    public void showPassportAsAlert() {
+        Alert alert = new Alert(Alert.AlertType.INFORMATION);
+        alert.setTitle("Passport Info");
+        alert.setContentText(this.toString());
+        alert.showAndWait();
     }
 }
